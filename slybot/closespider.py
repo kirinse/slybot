@@ -7,7 +7,7 @@ have been extracted along the last time interval of same length.
 
 from twisted.internet import task
 
-from scrapy.xlib.pydispatch import dispatcher
+from pydispatch import dispatcher
 from scrapy import signals
 from scrapy.exceptions import NotConfigured
 

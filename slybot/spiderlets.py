@@ -5,7 +5,7 @@ Spider middleware for AS for completing the work made by AS with a "spiderlet" c
 from __future__ import absolute_import
 import pkgutil, inspect
 
-from scrapy.xlib.pydispatch import dispatcher
+from pydispatch import dispatcher
 from scrapy import signals
 from scrapy.exceptions import NotConfigured
 from scrapy.http import Request
