@@ -39,7 +39,7 @@ class sdist_command(sdist):
         sdist.run(self)
 
 
-install_requires = ['Scrapy', 'scrapely', 'loginform', 'lxml', 'jsonschema',
+install_requires = ['Scrapy', 'git+https://github.com/kirinse/scrapely.git', 'loginform', 'lxml', 'jsonschema',
                     'dateparser', 'scrapy-splash', 'page_finder', 'six',
                     'chardet']
 extras = {
