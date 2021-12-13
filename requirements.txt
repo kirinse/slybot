@@ -4,7 +4,7 @@ Scrapy==2.3.0
 # scrapely==0.14.1
 git+https://github.com/kirinse/scrapely.git
 loginform==1.2.0
-lxml==4.5.2
+lxml==4.6.5
 dateparser==0.7.6
 python-dateutil==2.8.1
 jsonschema==3.2.0
