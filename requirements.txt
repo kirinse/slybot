@@ -1,5 +1,5 @@
 # Slybot requirements
-numpy==1.19.1
+numpy==1.22.0
 Scrapy==2.3.0
 # scrapely==0.14.1
 git+https://github.com/kirinse/scrapely.git
